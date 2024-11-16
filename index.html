@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Моя тестовая страница</title>
+    <!-- Подключаем внешний CSS-файл -->
+    <link rel="stylesheet" type="text/css" href="ксс\styles.css">
+    <!-- Подключаем шрифт Inter от Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Контейнер для видео и изображения -->
+    <div class="media-container">
+      <!-- Видео -->
+      <video autoplay muted loop id="myVideo">
+          <source src="https://www.desktophut.com/files/1686482427-1686482427-minecraft-cherry-grove-live-wallpaper.mp4" type="video/mp4">
+      </video>
+
+      <!-- Необязательно: некоторый текст поверх видео для его описания -->
+      <div class="content">
+          <!-- Используем кнопку для паузы/воспроизведения видео с помощью JavaScript -->
+          <button id="myBtn" onclick="window.location.href='https://www.example.com';">Нажми</button>
+          <img src="изо\minecraft_title.png" alt="Описание изображения" id="myImage">
+      </div>
+    </div>
+
+    <!-- Элемент для продления страницы вниз -->
+    <div class="spacer"></div>
+
+    <!-- Квадрат с градиентом, который будет занимать все пространство под прокрученным контентом -->
+    <div class="square"></div>
+
+    <!-- Контейнер для квадратов с изображениями -->
+    <div class="container">
+      <div class="square-image" id="square1" style="background-image: url('path/to/your/image1.jpg');"></div>
+      <div class="square-image" id="square2" style="background-image: url('path/to/your/image2.jpg');"></div>
+      <div class="square-image" id="square3" style="background-image: url('path/to/your/image3.jpg');"></div>
+    </div>
+
+    <!-- Подключаем JavaScript-файл -->
+    <script src="джс\script.js"></script>
+  </body>
+</html>
